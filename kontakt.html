@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="kontakt.js"></script>
+</head>
+<body>
+    <header>
+        <img src="8_1sasa11.jpg" alt="Logo" class="logo">
+        <h1>Skontaktuj się ze mną</h1>
+        <button id="dark-mode-toggle">🌙</button>
+    </header>
+
+    <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="temat1.html">Temat 1</a>
+        <a href="temat2.html">Temat 2</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <main>
+        <form id="kontakt-form">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+
+        <div id="form-message"></div>
+    </main>
+    <script src="darkmode.js"></script>
+</body>
+</html>
